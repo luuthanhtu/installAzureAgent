@@ -20,6 +20,6 @@ tar zxvf vsts-agent-linux-x64-2.184.2.tar.gz
 sudo rm vsts-agent-linux-x64-2.184.2.tar.gz
 su - Azure_agent
 sudo usermod -aG docker ${USER}
-sudo chmod 777 *
+sudo chmod 777 /home/AzureAgent/*
 cd agent
 
